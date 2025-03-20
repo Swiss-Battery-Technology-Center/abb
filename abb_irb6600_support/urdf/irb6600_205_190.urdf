@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!-- Generated using onshape-to-robot -->
 <!-- Onshape https://cad.onshape.com/documents/600cc7ec2a648e2819460c21/w/9c47313b92c7a7fa0f04901d/e/25f4f210713129f666b89649 -->
-<robot name="abb">
+<robot name="abb_irb6600_support_205_190">
   <!-- Link base_link -->
   <link name="base_link">
     <inertial>
@@ -13,7 +13,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 -0 0"/>
       <geometry>
-        <mesh filename="package://meshes/irb6600_205_190/base_link.stl"/>
+        <mesh filename="package://abb_irb6600_support/meshes/irb6600_205_190/base_link.stl"/>
       </geometry>
       <material name="base_link_material">
         <color rgba="0.843137 0.843137 0.843137 1.0"/>
@@ -22,7 +22,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 -0 0"/>
       <geometry>
-        <mesh filename="package://meshes/irb6600_205_190/base_link.stl"/>
+        <mesh filename="package://abb_irb6600_support/meshes/irb6600_205_190/base_link.stl"/>
       </geometry>
     </collision>
   </link>
@@ -37,7 +37,7 @@
     <visual>
       <origin xyz="6.77134e-18 3.09097e-18 0.2135" rpy="3.14159 2.14292e-20 -0.442998"/>
       <geometry>
-        <mesh filename="package://meshes/irb6600_205_190/link_1.stl"/>
+        <mesh filename="package://abb_irb6600_support/meshes/irb6600_205_190/link_1.stl"/>
       </geometry>
       <material name="link_1_material">
         <color rgba="0.843137 0.843137 0.843137 1.0"/>
@@ -46,7 +46,7 @@
     <collision>
       <origin xyz="6.77134e-18 3.09097e-18 0.2135" rpy="3.14159 2.14292e-20 -0.442998"/>
       <geometry>
-        <mesh filename="package://meshes/irb6600_205_190/link_1.stl"/>
+        <mesh filename="package://abb_irb6600_support/meshes/irb6600_205_190/link_1.stl"/>
       </geometry>
     </collision>
   </link>
@@ -61,7 +61,7 @@
     <visual>
       <origin xyz="-0.835741 0.234407 -0.1385" rpy="1.5708 6.30696e-15 0.944439"/>
       <geometry>
-        <mesh filename="package://meshes/irb6600_205_190/link_2.stl"/>
+        <mesh filename="package://abb_irb6600_support/meshes/irb6600_205_190/link_2.stl"/>
       </geometry>
       <material name="link_2_material">
         <color rgba="0.843137 0.843137 0.843137 1.0"/>
@@ -70,7 +70,7 @@
     <collision>
       <origin xyz="-0.835741 0.234407 -0.1385" rpy="1.5708 6.30696e-15 0.944439"/>
       <geometry>
-        <mesh filename="package://meshes/irb6600_205_190/link_2.stl"/>
+        <mesh filename="package://abb_irb6600_support/meshes/irb6600_205_190/link_2.stl"/>
       </geometry>
     </collision>
   </link>
@@ -85,7 +85,7 @@
     <visual>
       <origin xyz="-0.3 1.5145 -0.095" rpy="1.5708 1.1369e-16 4.19618e-16"/>
       <geometry>
-        <mesh filename="package://meshes/irb6600_205_190/link_3.stl"/>
+        <mesh filename="package://abb_irb6600_support/meshes/irb6600_205_190/link_3.stl"/>
       </geometry>
       <material name="link_3_material">
         <color rgba="0.792157 0.819608 0.933333 1.0"/>
@@ -94,7 +94,7 @@
     <collision>
       <origin xyz="-0.3 1.5145 -0.095" rpy="1.5708 1.1369e-16 4.19618e-16"/>
       <geometry>
-        <mesh filename="package://meshes/irb6600_205_190/link_3.stl"/>
+        <mesh filename="package://abb_irb6600_support/meshes/irb6600_205_190/link_3.stl"/>
       </geometry>
     </collision>
   </link>
@@ -109,7 +109,7 @@
     <visual>
       <origin xyz="-2.1004e-15 1.7945 0.44" rpy="1.5708 1.5708 0"/>
       <geometry>
-        <mesh filename="package://meshes/irb6600_205_190/link_4.stl"/>
+        <mesh filename="package://abb_irb6600_support/meshes/irb6600_205_190/link_4.stl"/>
       </geometry>
       <material name="link_4_material">
         <color rgba="0.792157 0.819608 0.933333 1.0"/>
@@ -118,7 +118,7 @@
     <collision>
       <origin xyz="-2.1004e-15 1.7945 0.44" rpy="1.5708 1.5708 0"/>
       <geometry>
-        <mesh filename="package://meshes/irb6600_205_190/link_4.stl"/>
+        <mesh filename="package://abb_irb6600_support/meshes/irb6600_205_190/link_4.stl"/>
       </geometry>
     </collision>
   </link>
@@ -133,7 +133,7 @@
     <visual>
       <origin xyz="-1.193 -1.7945 -0.103" rpy="-1.5708 1.54767e-14 -9.3497e-16"/>
       <geometry>
-        <mesh filename="package://meshes/irb6600_205_190/link_5.stl"/>
+        <mesh filename="package://abb_irb6600_support/meshes/irb6600_205_190/link_5.stl"/>
       </geometry>
       <material name="link_5_material">
         <color rgba="0.843137 0.843137 0.843137 1.0"/>
@@ -142,7 +142,7 @@
     <collision>
       <origin xyz="-1.193 -1.7945 -0.103" rpy="-1.5708 1.54767e-14 -9.3497e-16"/>
       <geometry>
-        <mesh filename="package://meshes/irb6600_205_190/link_5.stl"/>
+        <mesh filename="package://abb_irb6600_support/meshes/irb6600_205_190/link_5.stl"/>
       </geometry>
     </collision>
   </link>
@@ -157,7 +157,7 @@
     <visual>
       <origin xyz="-1.59575e-14 1.7945 1.356" rpy="1.5708 1.5708 0"/>
       <geometry>
-        <mesh filename="package://meshes/irb6600_205_190/link_6.stl"/>
+        <mesh filename="package://abb_irb6600_support/meshes/irb6600_205_190/link_6.stl"/>
       </geometry>
       <material name="link_6_material">
         <color rgba="0.501961 0.501961 0.501961 1.0"/>
@@ -166,7 +166,7 @@
     <collision>
       <origin xyz="-1.59575e-14 1.7945 1.356" rpy="1.5708 1.5708 0"/>
       <geometry>
-        <mesh filename="package://meshes/irb6600_205_190/link_6.stl"/>
+        <mesh filename="package://abb_irb6600_support/meshes/irb6600_205_190/link_6.stl"/>
       </geometry>
     </collision>
   </link>
