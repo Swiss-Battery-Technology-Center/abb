@@ -1,0 +1,221 @@
+<?xml version="1.0" ?>
+<!-- Generated using onshape-to-robot -->
+<!-- Onshape https://cad.onshape.com/documents/10518ef8240a84595b64e5c3/w/a859a3c176b74eb8aea53e5a/e/57f69bf6113a41ef9e791ad3 -->
+<robot name="abb_6730">
+  <!-- Link irb6730_210kg_310_oc_00_base_cad -->
+  <link name="irb6730_210kg_310_oc_00_base_cad">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part irb6730_210kg_310_oc_00_base_cad -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/irb6730_210kg_310_oc_00_base_cad.stl"/>
+      </geometry>
+      <material name="irb6730_210kg_310_oc_00_base_cad_material">
+        <color rgba="0.843137 0.843137 0.843137 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/irb6730_210kg_310_oc_00_base_cad.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link irb6730_210kg_310_oc_00_link01_cad -->
+  <link name="irb6730_210kg_310_oc_00_link01_cad">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part irb6730_210kg_310_oc_00_link01_cad -->
+    <visual>
+      <origin xyz="3.47472e-17 6.60087e-18 0.374" rpy="3.14159 -1.29305e-15 0"/>
+      <geometry>
+        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link01_cad.stl"/>
+      </geometry>
+      <material name="irb6730_210kg_310_oc_00_link01_cad_material">
+        <color rgba="0.843137 0.843137 0.843137 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="3.47472e-17 6.60087e-18 0.374" rpy="3.14159 -1.29305e-15 0"/>
+      <geometry>
+        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link01_cad.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link irb6730_210kg_310_oc_00_link02_cad -->
+  <link name="irb6730_210kg_310_oc_00_link02_cad">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part irb6730_210kg_310_oc_00_link02_cad -->
+    <visual>
+      <origin xyz="-0.34 0.78 0.14" rpy="1.5708 -1.92718e-50 -6.65069e-46"/>
+      <geometry>
+        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link02_cad.stl"/>
+      </geometry>
+      <material name="irb6730_210kg_310_oc_00_link02_cad_material">
+        <color rgba="0.843137 0.843137 0.843137 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.34 0.78 0.14" rpy="1.5708 -1.92718e-50 -6.65069e-46"/>
+      <geometry>
+        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link02_cad.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link irb6730_210kg_310_oc_00_link03_cad -->
+  <link name="irb6730_210kg_310_oc_00_link03_cad">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part irb6730_210kg_310_oc_00_link03_cad -->
+    <visual>
+      <origin xyz="-0.34 -1.95 -0.265" rpy="-1.5708 -5.02833e-16 -5.55112e-17"/>
+      <geometry>
+        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link03_cad.stl"/>
+      </geometry>
+      <material name="irb6730_210kg_310_oc_00_link03_cad_material">
+        <color rgba="0.843137 0.843137 0.843137 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.34 -1.95 -0.265" rpy="-1.5708 -5.02833e-16 -5.55112e-17"/>
+      <geometry>
+        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link03_cad.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link irb6730_210kg_310_oc_00_link04_cad -->
+  <link name="irb6730_210kg_310_oc_00_link04_cad">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part irb6730_210kg_310_oc_00_link04_cad -->
+    <visual>
+      <origin xyz="1.63684e-15 2.15 0.627" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link04_cad.stl"/>
+      </geometry>
+      <material name="irb6730_210kg_310_oc_00_link04_cad_material">
+        <color rgba="0.843137 0.843137 0.843137 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.63684e-15 2.15 0.627" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link04_cad.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link irb6730_210kg_310_oc_00_link05_cad -->
+  <link name="irb6730_210kg_310_oc_00_link05_cad">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part irb6730_210kg_310_oc_00_link05_cad -->
+    <visual>
+      <origin xyz="-1.9325 2.15 -0.095" rpy="1.5708 4.63566e-16 -1.66533e-16"/>
+      <geometry>
+        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link05_cad.stl"/>
+      </geometry>
+      <material name="irb6730_210kg_310_oc_00_link05_cad_material">
+        <color rgba="0.843137 0.843137 0.843137 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.9325 2.15 -0.095" rpy="1.5708 4.63566e-16 -1.66533e-16"/>
+      <geometry>
+        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link05_cad.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link irb6730_210kg_310_oc_00_link06_cad -->
+  <link name="irb6730_210kg_310_oc_00_link06_cad">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part irb6730_210kg_310_oc_00_link06_cad -->
+    <visual>
+      <origin xyz="2.80769e-16 2.15 2.0975" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link06_cad.stl"/>
+      </geometry>
+      <material name="irb6730_210kg_310_oc_00_link06_cad_material">
+        <color rgba="1 0.501961 0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="2.80769e-16 2.15 2.0975" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link06_cad.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from irb6730_210kg_310_oc_00_link05_cad to irb6730_210kg_310_oc_00_link06_cad -->
+  <joint name="joint_6" type="revolute">
+    <origin xyz="0.165 8.88178e-16 -0.095" rpy="-1.66533e-16 -1.5708 0"/>
+    <parent link="irb6730_210kg_310_oc_00_link05_cad"/>
+    <child link="irb6730_210kg_310_oc_00_link06_cad"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
+  </joint>
+  <!-- Joint from irb6730_210kg_310_oc_00_link04_cad to irb6730_210kg_310_oc_00_link05_cad -->
+  <joint name="joint_5" type="revolute">
+    <origin xyz="0.095 -4.44089e-16 -1.3055" rpy="7.44661e-16 1.5708 0"/>
+    <parent link="irb6730_210kg_310_oc_00_link04_cad"/>
+    <child link="irb6730_210kg_310_oc_00_link05_cad"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-2.26893" upper="2.26893"/>
+  </joint>
+  <!-- Joint from irb6730_210kg_310_oc_00_link03_cad to irb6730_210kg_310_oc_00_link04_cad -->
+  <joint name="joint_4" type="revolute">
+    <origin xyz="0.287 0.2 -0.265" rpy="-3.14159 1.5708 0"/>
+    <parent link="irb6730_210kg_310_oc_00_link03_cad"/>
+    <child link="irb6730_210kg_310_oc_00_link04_cad"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
+  </joint>
+  <!-- Joint from irb6730_210kg_310_oc_00_link02_cad to irb6730_210kg_310_oc_00_link03_cad -->
+  <joint name="joint_3" type="revolute">
+    <origin xyz="-1.11022e-16 -1.17 -0.125" rpy="3.14159 -1.92718e-50 -6.65069e-46"/>
+    <parent link="irb6730_210kg_310_oc_00_link02_cad"/>
+    <child link="irb6730_210kg_310_oc_00_link03_cad"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-1.22173" upper="3.14159"/>
+  </joint>
+  <!-- Joint from irb6730_210kg_310_oc_00_link01_cad to irb6730_210kg_310_oc_00_link02_cad -->
+  <joint name="joint_2" type="revolute">
+    <origin xyz="0.34 0.14 -0.406" rpy="1.5708 -1.29305e-15 -1.22593e-15"/>
+    <parent link="irb6730_210kg_310_oc_00_link01_cad"/>
+    <child link="irb6730_210kg_310_oc_00_link02_cad"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-1.13446" upper="1.39626"/>
+  </joint>
+  <!-- Joint from irb6730_210kg_310_oc_00_base_cad to irb6730_210kg_310_oc_00_link01_cad -->
+  <joint name="joint_1" type="revolute">
+    <origin xyz="-5.18347e-16 6.60087e-18 0.374" rpy="-3.14159 -1.29305e-15 -9.55519e-62"/>
+    <parent link="irb6730_210kg_310_oc_00_base_cad"/>
+    <child link="irb6730_210kg_310_oc_00_link01_cad"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-2.96706" upper="2.96706"/>
+  </joint>
+</robot>
