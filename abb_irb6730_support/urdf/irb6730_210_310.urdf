@@ -13,7 +13,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 -0 0"/>
       <geometry>
-        <mesh filename="package://assets/irb6730_210kg_310_oc_00_base_cad.stl"/>
+        <mesh filename="package://abb_irb6730_support/meshes/irb6730_210kg_310_oc_00_base_cad.stl"/>
       </geometry>
       <material name="irb6730_210kg_310_oc_00_base_cad_material">
         <color rgba="0.843137 0.843137 0.843137 1.0"/>
@@ -22,7 +22,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 -0 0"/>
       <geometry>
-        <mesh filename="package://assets/irb6730_210kg_310_oc_00_base_cad.stl"/>
+        <mesh filename="package://abb_irb6730_support/meshes/irb6730_210kg_310_oc_00_base_cad.stl"/>
       </geometry>
     </collision>
   </link>
@@ -37,7 +37,7 @@
     <visual>
       <origin xyz="3.47472e-17 6.60087e-18 0.374" rpy="3.14159 -1.29305e-15 0"/>
       <geometry>
-        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link01_cad.stl"/>
+        <mesh filename="package://abb_irb6730_support/meshes/irb6730_210kg_310_oc_00_link01_cad.stl"/>
       </geometry>
       <material name="irb6730_210kg_310_oc_00_link01_cad_material">
         <color rgba="0.843137 0.843137 0.843137 1.0"/>
@@ -46,7 +46,7 @@
     <collision>
       <origin xyz="3.47472e-17 6.60087e-18 0.374" rpy="3.14159 -1.29305e-15 0"/>
       <geometry>
-        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link01_cad.stl"/>
+        <mesh filename="package://abb_irb6730_support/meshes/irb6730_210kg_310_oc_00_link01_cad.stl"/>
       </geometry>
     </collision>
   </link>
@@ -61,7 +61,7 @@
     <visual>
       <origin xyz="-0.34 0.78 0.14" rpy="1.5708 -1.92718e-50 -6.65069e-46"/>
       <geometry>
-        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link02_cad.stl"/>
+        <mesh filename="package://abb_irb6730_support/meshes/irb6730_210kg_310_oc_00_link02_cad.stl"/>
       </geometry>
       <material name="irb6730_210kg_310_oc_00_link02_cad_material">
         <color rgba="0.843137 0.843137 0.843137 1.0"/>
@@ -70,7 +70,7 @@
     <collision>
       <origin xyz="-0.34 0.78 0.14" rpy="1.5708 -1.92718e-50 -6.65069e-46"/>
       <geometry>
-        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link02_cad.stl"/>
+        <mesh filename="package://abb_irb6730_support/meshes/irb6730_210kg_310_oc_00_link02_cad.stl"/>
       </geometry>
     </collision>
   </link>
@@ -85,7 +85,7 @@
     <visual>
       <origin xyz="-0.34 -1.95 -0.265" rpy="-1.5708 -5.02833e-16 -5.55112e-17"/>
       <geometry>
-        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link03_cad.stl"/>
+        <mesh filename="package://abb_irb6730_support/meshes/irb6730_210kg_310_oc_00_link03_cad.stl"/>
       </geometry>
       <material name="irb6730_210kg_310_oc_00_link03_cad_material">
         <color rgba="0.843137 0.843137 0.843137 1.0"/>
@@ -94,7 +94,7 @@
     <collision>
       <origin xyz="-0.34 -1.95 -0.265" rpy="-1.5708 -5.02833e-16 -5.55112e-17"/>
       <geometry>
-        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link03_cad.stl"/>
+        <mesh filename="package://abb_irb6730_support/meshes/irb6730_210kg_310_oc_00_link03_cad.stl"/>
       </geometry>
     </collision>
   </link>
@@ -109,7 +109,7 @@
     <visual>
       <origin xyz="1.63684e-15 2.15 0.627" rpy="1.5708 1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link04_cad.stl"/>
+        <mesh filename="package://abb_irb6730_support/meshes/irb6730_210kg_310_oc_00_link04_cad.stl"/>
       </geometry>
       <material name="irb6730_210kg_310_oc_00_link04_cad_material">
         <color rgba="0.843137 0.843137 0.843137 1.0"/>
@@ -118,7 +118,7 @@
     <collision>
       <origin xyz="1.63684e-15 2.15 0.627" rpy="1.5708 1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link04_cad.stl"/>
+        <mesh filename="package://abb_irb6730_support/meshes/irb6730_210kg_310_oc_00_link04_cad.stl"/>
       </geometry>
     </collision>
   </link>
@@ -133,7 +133,7 @@
     <visual>
       <origin xyz="-1.9325 2.15 -0.095" rpy="1.5708 4.63566e-16 -1.66533e-16"/>
       <geometry>
-        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link05_cad.stl"/>
+        <mesh filename="package://abb_irb6730_support/meshes/irb6730_210kg_310_oc_00_link05_cad.stl"/>
       </geometry>
       <material name="irb6730_210kg_310_oc_00_link05_cad_material">
         <color rgba="0.843137 0.843137 0.843137 1.0"/>
@@ -142,7 +142,7 @@
     <collision>
       <origin xyz="-1.9325 2.15 -0.095" rpy="1.5708 4.63566e-16 -1.66533e-16"/>
       <geometry>
-        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link05_cad.stl"/>
+        <mesh filename="package://abb_irb6730_support/meshes/irb6730_210kg_310_oc_00_link05_cad.stl"/>
       </geometry>
     </collision>
   </link>
@@ -157,7 +157,7 @@
     <visual>
       <origin xyz="2.80769e-16 2.15 2.0975" rpy="1.5708 1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link06_cad.stl"/>
+        <mesh filename="package://abb_irb6730_support/meshes/irb6730_210kg_310_oc_00_link06_cad.stl"/>
       </geometry>
       <material name="irb6730_210kg_310_oc_00_link06_cad_material">
         <color rgba="1 0.501961 0 1.0"/>
@@ -166,7 +166,7 @@
     <collision>
       <origin xyz="2.80769e-16 2.15 2.0975" rpy="1.5708 1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/irb6730_210kg_310_oc_00_link06_cad.stl"/>
+        <mesh filename="package://abb_irb6730_support/meshes/irb6730_210kg_310_oc_00_link06_cad.stl"/>
       </geometry>
     </collision>
   </link>
@@ -218,4 +218,82 @@
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-2.96706" upper="2.96706"/>
   </joint>
+
+  <link name="tool0"/>
+
+
+  <joint name="link_6-tool0" type="fixed">
+    <child link="tool0"/>
+    <origin rpy="0 3.14159265359 -0.0" xyz="0.0 0.0 -0.05"/>
+    <parent link="irb6730_210kg_310_oc_00_link06_cad"/>
+  </joint>
+
+
+
+    <!-- <link name="tool_small">
+      <collision>
+        <geometry>
+          <box size="0.4 0.4 0.38"/>
+        </geometry>
+        <origin rpy="0 0 0" xyz="0 0 -0.19"/>
+      </collision>
+      <visual>
+        <geometry>
+          <box size="0.4 0.4 0.38"/>
+        </geometry>
+        <origin rpy="0 0 0" xyz="0 0 -0.19"/>
+      </visual>
+    </link>
+
+    <joint name="tool0-tool_small" type="fixed">
+      <child link="tool_small"/>
+      <origin rpy="0 0 0" xyz="0.0 0.0 0.4"/>
+      <parent link="tool0"/>
+    </joint> -->
+
+
+    <link name="tool_mid">
+      <collision>
+        <geometry>
+          <box size="0.8 0.8 0.48"/>
+        </geometry>
+        <origin rpy="0 0 0" xyz="0 0 -0.245"/>
+      </collision>
+      <visual>
+        <geometry>
+          <box size="0.8 0.8 0.48"/>
+        </geometry>
+        <origin rpy="0 0 0" xyz="0 0 -0.245"/>
+      </visual>
+    </link>
+
+    <joint name="tool0-tool_mid" type="fixed">
+      <child link="tool_mid"/>
+      <origin rpy="0 0 0" xyz="0.0 0.0 0.5"/>
+      <parent link="tool0"/>
+    </joint>
+
+
+  <!-- <link name="tool_large">
+    <collision>
+      <geometry>
+        <box size="1.2 1.6 0.58"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 -0.29"/>
+    </collision>
+    <visual>
+      <geometry>
+        <box size="1.2 1.6 0.58"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 -0.29"/>
+    </visual>
+  </link>
+
+  <joint name="tool0-tool_large" type="fixed">
+    <child link="tool_large"/>
+    <origin rpy="0 0 0" xyz="0.0 0.0 0.6"/>
+    <parent link="tool0"/>
+  </joint> -->
+
+
 </robot>
